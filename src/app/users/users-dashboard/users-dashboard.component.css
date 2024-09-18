@@ -1,0 +1,46 @@
+table.mat-elevation-z8 {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #333;
+}
+
+th.mat-header-cell {
+    background-color: #333;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1em;
+    border-bottom: 2px solid #ff0000;
+}
+
+td.mat-cell {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+}
+
+tr:nth-child(even) td.mat-cell {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) td.mat-cell {
+    background-color: #ffffff;
+}
+
+tr:hover td.mat-cell {
+    background-color: #ffdddd;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
